@@ -1,47 +1,44 @@
-header {
-    position: fixed;
-    background: white;
-    width: 100%;
-    top: 0;
-}
-
-nav {
-    background-color: #333447;
-    top: 0;
-    height: 100px;
-    width: 1500px;
+* {
+    outline: 1px solid red;
 }
 
 .link {
     font-weight: 700;
-    padding: 20px;
+    padding: 21px;
     display: inline-block;
     text-decoration: none;
     color: white;
-    left: 100px;
+    float: right;
 }
 
 .logo {
     float: left;
-    top: 20px;
 }
 
-.video1 {
-    height: 600px;
-    width: 900px;
+header {
+    position: fixed;
+    background: #333447;
+    width: 100%;
+    top: 0;
+}
+
+.menu {
+    padding: 14px 70px;
+    overflow: auto;
 }
 
 #home {
-    /*background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    text-align: center;
-    margin-top: 80px;*/
-    display: inline-block;
-    background-color: red;
     height: 554px;
-    width: 1500px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#home .container {
+    color: #352384;
+    padding: 70px;
 }
 
 .text-home {
@@ -49,7 +46,7 @@ nav {
 }
 
 .btn-home {
-    background: #2ECC71;
+    background: #FF00BF;
     color: #fff;
     padding: 11px 20px;
     border-radius: 1px;
@@ -60,7 +57,41 @@ nav {
     font-size: 14px;
 }
 
-section#texto {
-    left: 100px;
-    background-color: yellow;
+#services {
+    background-color: #722780;
+    text-align: left;
+    color: #fff;
+    padding: 70px 7px;
+}
+
+.box-services {
+    display: inline-block;
+    width: 30%;
+    margin-top: 63px;
+}
+
+.text-services {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#work {
+    background-color: #fff;
+    text-align: center;
+    color: black;
+    padding: 70px 7px;
+}
+
+.box {
+    display: block;
+    height: 50%;
+    margin-top: 63px;
+}
+
+footer {
+    text-align: center;
+    height: 70px;
+    background: #373B47;
+    color: white;
+    padding-top: 7px;
 }
