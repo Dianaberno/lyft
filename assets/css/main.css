@@ -1,6 +1,6 @@
-/* {
+* {
     outline: 1px solid red;
-}*/
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -29,6 +29,10 @@ header {
 .menu {
     padding: 14px 70px;
     overflow: auto;
+}
+
+#image {
+    width: 90px;
 }
 
 .btn-menu {
